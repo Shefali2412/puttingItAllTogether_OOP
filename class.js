@@ -44,6 +44,12 @@ function wait(milliseconds) {
   })
   })
 
+// Exercise 4
+console.log(person1.introduce());
+describePerson(function () {
+  console.log(this.introduce());
+}.bind(person1));
+
 
 
 
